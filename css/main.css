@@ -1,10 +1,21 @@
+/* 
+  *Author: U'el Azdrian small
+  *Date: Copyright, september 26th 2016
+  *File Name: Main.css
+  *Website: https://azdrian.github.io/Random-quotes-machine/ 
+*/
+
+
 /* Basic styles
----------------------------------------*/
+--------------------------------------------*/
 
 body {
   background-color: #E1BEE7;
 }
 
+
+/* Header
+--------------------------------------------*/
 header {
   margin-bottom: 50px;
 }
@@ -14,6 +25,10 @@ h4 {
   font-family: 'Anton', sans-serif;
 }
 
+
+
+/* Main content
+--------------------------------------------*/
 #quote {
   font-family: 'Lobster', cursive;
 }
