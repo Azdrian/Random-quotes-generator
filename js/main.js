@@ -3,15 +3,15 @@
   *Date: Copyright, November 3rd 2016
   *File Name: Main.css
   *Website: https://azdrian.github.io/Random-quotes-machine/
-
 */
+
 $(document).ready(function() {
 // Declare viariables
 var $quoteUrl = "https://crossorigin.me/http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?",
     $quote,
     $author;
 
-// make a request to the foristmatic API for random quotes and display it on the page
+// This function deals with making a request to the foristmatic API for random quotes and display it on the page
 var $getQuote = function() {
     $.ajax({
       url: $quoteUrl,
