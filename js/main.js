@@ -1,7 +1,7 @@
 /* 
   *Author: U'el Azdrian small
   *Date: Copyright, November 3rd 2016
-  *File Name: Main.css
+  *File Name: Main.js
   *Website: https://azdrian.github.io/Random-quotes-machine/
 */
 
