@@ -11,7 +11,7 @@ var $quoteUrl = "https://crossorigin.me/http://api.forismatic.com/api/1.0/?metho
     $quote,
     $author;
 
-// This function deals with making a request to the foristmatic API for random quotes and display it on the page
+// This function deals with making a request to the foristmatic API for random quotes and displaying it on the page
 var $getQuote = function() {
     $.ajax({
       url: $quoteUrl,
